@@ -13,7 +13,7 @@ def fetch_weather_data(city):
 
 
 
-API_KEY = "77f97ed5828ea11d3cfabf79bea9e1ba"
+API_KEY = "apikeyhere"
 print("welcome to the weather app\nPlease enter your city name.")
 city = input("City: ")
 print(f"Fetching weather data for {city}...")
