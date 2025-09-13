@@ -27,7 +27,7 @@ def weather_report(data):
               f"Sunset Time: {sunset_time.strftime('%Y-%m-%d %H:%M:%S')}")
     return report
 
-API_KEY = "77f97ed5828ea11d3cfabf79bea9e1ba"
+API_KEY = "apikeyhere"
 print("welcome to the weather app\nPlease enter your city name.")
 city = input("City: ")
 print(f"Fetching weather data for {city}...")
